@@ -18,4 +18,6 @@ Please note:
 
 So more work may be required to make this a useful tool for other people. For now you're free to try and leave comments.
 
+<img width="1497" height="958" alt="Screenshot 2026-03-04 195250" src="https://github.com/user-attachments/assets/a52e6368-3fae-4abe-9e45-07e6114db6dd" />
+
 Final note: No I am NOT a programmer. I have some basic knowledge of Javascript and Python and Pascal and stuff like that, but I am not a programmer. This web interface I built just by talking to Claude at claude.io. Amazing tool!
