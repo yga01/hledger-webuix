@@ -12,8 +12,8 @@ That's it. Super simple, should be self-explanatory.
 Please note:
 - I am in Europe and my ledger data files use 'EUR' as the currency symbol. There is a test ledger file bcexample.hledger available at https://github.com/simonmichael/hledger/blob/master/examples/bcexample.hledger, that files has 'USD' as currency. hledger-webuix seems to eat this file without any complaints, but in the presentation then it shows EUR instead of USD. The amounts seem to be correct, but still may need some work here...
 - I have not implemented multi-currency.
-- my accounts start with ass: lia: inc: exp. I am not sure if that is standard hledger lingo, but it is what I use at the moment. I may need to change that for others to use this web-interface, not sure.
-- my dates are in 2026/01/31 format. I don't think my regexp parses other formats.
+- my accounts start with ass: lia: inc: exp. I am not sure if that is standard hledger lingo, but it is what I use at the moment. I may need to change that for others to use this web-interface, not sure. The test file bcexample.hledger uses Assets: Liabilities: Income: Expense: and this seems to work fine as well, no parsing errors.
+- my dates are in 2026/01/31 format. I think my regexp also parses 2026-01-31.
 - functionality is limited, hledger CLI provides more functionality.
 
 So more work may be required to make this a useful tool for other people. For now you're free to try and leave comments.
